@@ -1,0 +1,10 @@
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\OClock.exe.config
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\OClock.exe
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\OClock.pdb
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csprojAssemblyReference.cache
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.Form1.resources
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.Properties.Resources.resources
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csproj.GenerateResource.cache
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csproj.CoreCompileInputs.cache
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.exe
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.pdb
