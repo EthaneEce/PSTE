@@ -8,3 +8,5 @@ C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csproj.GenerateResou
 C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csproj.CoreCompileInputs.cache
 C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.exe
 C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.pdb
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.Acceuil.resources
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.Form2.resources

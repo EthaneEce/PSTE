@@ -13,10 +13,16 @@ namespace OClock
     public partial class Form1 : Form
     {
         private int hourDozen = 0, hourUnit = 0, minuteDozen = 0, minuteUnit = 0 ;
+        private switcher ouai;
 
-        public Form1()
+        public static object Control { get; private set; }
+
+        public Form1(ref switcher a)
         {
             InitializeComponent();
+
+            this.ouai = a;
+
             label2.Text = this.hourDozen.ToString();
             label3.Text = this.hourUnit.ToString();
             label4.Text = this.minuteDozen.ToString();
@@ -25,7 +31,16 @@ namespace OClock
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //activated = true ;
+            this.Hide();
+            switcher ouai = new switcher();
+            Acceuil accueil = new Acceuil(ref ouai);
+            accueil.Closed += (s, args) => this.Close();
+            accueil.Show();
+        }
+
+        private void changePage(int a)
+        {
+            this.ouai.page = a;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -102,6 +117,15 @@ namespace OClock
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            switcher ouai = new switcher();
+            Form2 radioStting = new Form2(ref ouai);
+            radioStting.Closed += (s, args) => this.Close();
+            radioStting.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
