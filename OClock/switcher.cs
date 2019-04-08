@@ -8,8 +8,14 @@ namespace OClock
 {
     public struct switcher
     {
-        public bool alarmActive , alarmRinging, alarmSeted;
-        public string urlAlarm;
-        public int page; //1 : accueil, 2 : Alarm Set, 3 : Radio Selec
+        public bool alarmActive , alarmRinging;
+        public string urlAlarm, radioName;
+    }
+
+    public class radio
+    {
+        public string url { get; set; }
+
+        public string name { get; set; }
     }
 }

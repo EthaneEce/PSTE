@@ -14,48 +14,17 @@ namespace OClock
         [STAThread]
         static void Main()
         {
-            bool end = false;
             switcher ouai = new switcher();
             ouai.alarmActive = false;
             ouai.alarmRinging = false;
-            ouai.alarmSeted = false;
-            ouai.urlAlarm = "";
-            ouai.page = 2;
-
+            ouai.urlAlarm = string.Empty;
+            ouai.radioName = "Radio non choisie";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
 
-            Acceuil acceuil = new Acceuil(ref ouai);
-            Form1 alarmSetting = new Form1(ref ouai);
-            Form2 radioSetting = new Form2(ref ouai);
+            Application.Run(new Acceuil(ref ouai));
 
-            Application.Run(acceuil);
-
-            /*
-            while (end == false)
-            {
-                if (ouai.page == 1)
-                {
-                    Application.Run(acceuil);
-                    acceuil.Show();
-                    alarmSetting.Hide();
-                    radioSetting.Hide();
-                }
-                if (ouai.page == 2)
-                {
-                    //Application.Run(alarmSetting);
-                    acceuil.Hide();
-                    alarmSetting.Show();
-                    radioSetting.Hide();
-                }
-                if (ouai.page == 3)
-                {
-                    Application.Run(radioSetting);
-                    acceuil.Hide();
-                    alarmSetting.Hide();
-                    radioSetting.Show();
-                }
-            };*/
 
         }
     }

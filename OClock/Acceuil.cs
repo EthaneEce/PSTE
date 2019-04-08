@@ -12,9 +12,12 @@ namespace OClock
 {
     public partial class Acceuil : Form
     {
+        private switcher ouai;
+
         public Acceuil(ref switcher a)
         {
             InitializeComponent();
+            ouai = a;
             label1.Text = DateTime.Now.ToLongTimeString();
         }
 
@@ -36,8 +39,7 @@ namespace OClock
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            switcher ouai = new switcher();
-            Form1 alarmSeting = new Form1(ref ouai);
+            Form1 alarmSeting = new Form1(ref this.ouai);
             alarmSeting.Closed += (s, args) => this.Close();
             alarmSeting.Show();
         }
