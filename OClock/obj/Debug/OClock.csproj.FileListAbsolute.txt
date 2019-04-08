@@ -9,3 +9,12 @@ C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csproj.CoreCompileIn
 C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.exe
 C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.pdb
 C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.Acceuil.resources
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\Interop.WMPLib.dll
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\OClock.csproj.ResolveComReference.cache
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\Interop.WMPLib.dll
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\Interop.AXVLC.dll
+C:\Users\Ethane\source\repos\OClock\OClock\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\Interop.AXVLC.dll
+C:\Users\Ethane\source\repos\OClock\OClock\obj\Debug\AxInterop.AXVLC.dll

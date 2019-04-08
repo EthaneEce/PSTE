@@ -10,6 +10,7 @@ namespace OClock
     {
         public bool alarmActive , alarmRinging;
         public string urlAlarm, radioName;
+        public DateTime alarmTime;
     }
 
     public class radio

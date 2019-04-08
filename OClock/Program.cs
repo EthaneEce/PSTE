@@ -19,6 +19,7 @@ namespace OClock
             ouai.alarmRinging = false;
             ouai.urlAlarm = string.Empty;
             ouai.radioName = "Radio non choisie";
+            ouai.alarmTime = new DateTime(1,1,1,0,0,0);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             

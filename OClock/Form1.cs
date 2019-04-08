@@ -38,6 +38,7 @@ namespace OClock
         {
             this.Hide();
             this.ouai.alarmActive = true;
+            this.ouai.alarmTime = new DateTime(1, 1, 1, 10*this.hourDozen + this.hourUnit, 10*this.minuteDozen + this.minuteUnit, 0);
 
             Acceuil accueil = new Acceuil(ref this.ouai);
             accueil.Closed += (s, args) => this.Close();
@@ -144,7 +145,11 @@ namespace OClock
         {
             radio obj = radioCBo.SelectedItem as radio;
             if (obj != null)
+            {
                 this.ouai.urlAlarm = obj.url;
+                this.ouai.radioName = obj.name;
+            }
+                
         }
 
         private void button8_Click(object sender, EventArgs e)
